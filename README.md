@@ -4,6 +4,7 @@ Simple ui-library for micro:bit's 5x5 screen with 10 brightness values per "pixe
 ## TODO:
 * [ ] javascript version
 * [ ] better example usage
+* [ ] optimise so it uses less memory
 
 ## Python API:
 A UI screen is created with the `UI` constructor:
