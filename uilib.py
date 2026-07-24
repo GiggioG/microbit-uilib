@@ -93,7 +93,7 @@ class UI:
             return
         self.selectedInput = (self.selectedInput + 1) % len(self.inputList)
 
-    def changeSelectedControl(self):
+    def interactWithControl(self):
         if self.selectedInput == None:
             return
         cont = self.controls[self.inputList[self.selectedInput]]

@@ -54,10 +54,10 @@ def openMainPage():
                 "isInput": True
             }
         }, "p.p.p:"
-           ".X.X.:"
-           "p.X.p:"
-           ".X.X.:"
-           "p.p.p"
+           ".p.p.:"
+           "p.p.p:"
+           ".....:"
+           ".XXX."
         )
     ui = currMainPage
 
@@ -71,4 +71,4 @@ while True:
     if button_a.was_pressed():
         ui.nextControl()
     if button_b.was_pressed():
-        ui.changeSelectedControl()
+        ui.interactWithControl()
